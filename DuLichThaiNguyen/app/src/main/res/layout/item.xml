@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/tvAvata"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_marginLeft="5dp"
+        android:background="#18ade4"
+        android:gravity="center"
+        android:src="@drawable/lua"
+        android:textColor="#FFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/tvAvata"
+        android:gravity="center"
+        android:text="Hồ Núi Cốc"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDiaDanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:text="Địa Danh" />
+    <TextView
+        android:id="@+id/geod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

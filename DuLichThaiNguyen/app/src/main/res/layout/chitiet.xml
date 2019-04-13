@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgchitiet"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:src="@drawable/lua"/>
+    <TextView
+        android:id="@+id/tvchitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hồ núi cốc"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/imgchitiet"
+        />
+    <TextView
+        android:id="@+id/tvdiadiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="địa điểm"
+        android:textSize="20sp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvchitiet"/>
+    <TextView
+        android:id="@+id/tvthongtin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdiadiem"
+        android:gravity="center"
+        android:text="thông tin về địa điểm"/>
+    <Button
+        android:id="@+id/timduong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tìm Đường"
+        android:layout_below="@+id/tvthongtin"
+        />
+    <TextView
+        android:id="@+id/geod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+</RelativeLayout>
